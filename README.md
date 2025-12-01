@@ -12,10 +12,6 @@ It provides a smooth and responsive experience for creating and managing notes.
 - 💾 Local storage using Room Database  
 - ⚡ Fast and efficient operations powered by Kotlin Coroutines
 
-## 🎥 Demo Video
-Watch the UI in action:
-https://github.com/code7979/Uno-Pad/blob/main/unoapp.mp4
-
 ## ⚠️ Warning
 
 Use **UnoPad** at your own risk.
