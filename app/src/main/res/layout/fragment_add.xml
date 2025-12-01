@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/add_note_app_bar_layout"
+        style="@style/Widget.UnoPad.AppBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/elevation_zero"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/add_note_top_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            app:menu="@menu/add_menu"
+            app:title="@string/add_new_note"
+            app:navigationIcon="@drawable/ic_back" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <EditText
+        android:id="@+id/add_note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/title"
+        android:maxLines="2"
+        android:padding="@dimen/medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_note_app_bar_layout" />
+
+    <TextView
+        android:id="@+id/add_note_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/medium"
+        android:text="30 November 2025"
+        android:textAppearance="@style/TextAppearance.Material3.LabelSmall"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_note_title" />
+
+    <EditText
+        android:id="@+id/add_note_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:autofillHints="@string/start_writing"
+        android:background="@drawable/edit_text_background"
+        android:foregroundGravity="top"
+        android:gravity="top|start"
+        android:hint="@string/start_writing"
+        android:inputType="textMultiLine"
+        android:overScrollMode="always"
+        android:padding="@dimen/medium"
+        android:scrollbars="vertical"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_note_date" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

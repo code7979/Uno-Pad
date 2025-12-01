@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zero_dp">0dp</dimen>
+
+    <dimen name="elevation_zero">0dp</dimen>
+    <dimen name="elevation_small">1dp</dimen>
+    <dimen name="elevation_medium">4dp</dimen>
+    <dimen name="elevation_large">6dp</dimen>
+
+    <dimen name="small">10dp</dimen>
+    <dimen name="medium">16dp</dimen>
+    <dimen name="large">24dp</dimen>
+</resources>
