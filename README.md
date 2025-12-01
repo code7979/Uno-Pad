@@ -12,6 +12,12 @@ It provides a smooth and responsive experience for creating and managing notes.
 - 💾 Local storage using Room Database  
 - ⚡ Fast and efficient operations powered by Kotlin Coroutines
 
+### Screenshot
+![Screenshot 1](screenshots/screenshot_unopad_1.jpg)
+![Screenshot 1](screenshots/screenshot_unopad_2.jpg)
+![Screenshot 1](/screenshots/screenshot_unopad_3.jpg)
+![Screenshot 1](/screenshots/screenshot_unopad_4.jpg)
+
 ## ⚠️ Warning
 
 Use **UnoPad** at your own risk.
