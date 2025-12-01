@@ -1,23 +1,13 @@
 package com.brainstorm.unopad.ui
 
 import android.os.Bundle
-import android.util.Log
-import android.view.MenuItem
-import android.view.View
-import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
-import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import androidx.lifecycle.lifecycleScope
-import com.brainstorm.unopad.LOGGER_TAG
 import com.brainstorm.unopad.R
-import com.brainstorm.unopad.UnoPadApp
 import com.brainstorm.unopad.databinding.ActivityMainBinding
-import com.brainstorm.unopad.log
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
+import com.brainstorm.unopad.ui.fragments.NotesFragment
 
 class MainActivity : AppCompatActivity() {
 

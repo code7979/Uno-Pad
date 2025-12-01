@@ -21,8 +21,8 @@
             android:layout_height="wrap_content"
             android:minHeight="?attr/actionBarSize"
             app:menu="@menu/add_menu"
-            app:title="@string/add_new_note"
-            app:navigationIcon="@drawable/ic_back" />
+            app:navigationIcon="@drawable/ic_back"
+            app:title="@string/add_new_note" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -43,7 +43,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingHorizontal="@dimen/medium"
-        android:text="30 November 2025"
         android:textAppearance="@style/TextAppearance.Material3.LabelSmall"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
